@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>~hagward</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="http://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// Fades the sections.
+				$('.section').hover(function() {
+					if ($(this).css('opacity') != 1)
+						$(this).fadeTo(50, 1.0);
+					$('.section').not(this).fadeTo(50, 0.2);
+				});
+
+				// Fades out all sections.
+				$('#content').mouseleave(function() {
+					$('.section').stop(true, true);
+					$('.section').fadeTo(50, 1.0);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		
+		<div id="main">
+			<div id="logo">~<span class="red">hagward</span></div>
+			<div id="content">
+
+				<div class="section">
+					<h1><span class="red">¶</span> Om</h1>
+					<p>Jag heter Anders Hagward och är en mer eller mindre (förhoppningsvis mer) ambitiös student vid KTH. Förr eller senare blir jag förhoppningsvis civilingenjör i datateknik. Vid skapandet av den här webbplatsen fick jag alldeles för mycket frihet med <a href="http://jquery.com/">jQuery</a>, varför den kan upplevas som aningen (läs: gravt) jobbigt animerad.</p>
+				</div>
+
+				<div class="section">
+					<h1><span class="red">¶</span> Intressen</h1>
+					<p>Lyckligtvis förfogar jag över en ansenlig uppsättning saker och ting jag finner nöje i att på fritiden avsätta tid åt, kort sagt, jag har mina fritidsintressen. Dessa är, i ingen särskild ordning, följande:</p>
+					
+					<ul>
+						<li>Datalogi</li>
+						<li>Vetenskap</li>
+						<li>Musik</li>
+						<li>Träning och motion</li>
+						<li>Japanska</li>
+						<li>Julafton</li>
+					</ul>
+				</div>
+
+				<div class="section">
+					<h1><span class="red">¶</span> Hobbyprojekt</h1>
+					<p>Ibland händer det att jag får ett infall att utveckla/programmera någonting på fritiden.</p>
+					
+					<div class="project">
+						<a href="https://github.com/hagward/JavaScriptris">JavaScriptris</a>: En enkel Tetrisklon i JavaScript och HTML5.
+						[<a href="https://dl.dropboxusercontent.com/u/334931/game.html">Demo</a>]
+					</div>
+
+					<div class="project">
+						<a href="https://github.com/hagward/gameoflifejs">gameoflife.js</a>: Game of Life, också i JavaScript och HTML5.
+						[<a href="https://dl.dropboxusercontent.com/u/334931/gameoflifejs/gameoflife.html">Demo</a>]
+					</div>
+
+					<div class="project">
+						<a href="https://github.com/hagward/gooseditor">gooseditor</a>: En simpel texteditor som körs i webbläsaren.
+						[<a href="https://dl.dropboxusercontent.com/u/334931/gooseditor/gooseditor.html">Demo</a>]
+					</div>
+
+					<div class="project">
+						<a href="https://github.com/hagward/vcheck">vcheck</a>: En kommandoradsverktyg för att lära sig glosor, skrivet i Python.
+					</div>
+
+					<div class="project">
+						<a href="https://github.com/hagward/WhatTodo">WhatTodo</a>: En minimal att göra-lista för Android.
+					</div>
+				</div>
+
+			</div>
+			<div id="disclaimer">Senast ändrad: 2013-07-28 <b>|</b> Sidansvarig: hagward <b>at</b> kth.se <b>|</b> <a href="http://www.kth.se/gemensamt/disclaimer/disclaimer-for-personliga-webbsidor-1.62633">Disclaimer</a></div>
+		</div>
+		
+	</body>
+</html>
