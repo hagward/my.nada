@@ -1,5 +1,5 @@
 html, body { margin: 0; padding: 0; }
-body { background-color: #F0F0F0; }
+body { background: url('./img/bg_stripe.png'); }
 h1 { font: 1.4em "Segoe UI Script"; margin: 8px 0 2px; }
 a { color: #BF0D0D; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -16,6 +16,7 @@ ul { list-style: circle; margin: 0; }
 	font: 2em "Kite One", sans-serif;
 	margin: 8px 18px;
 	color: #AAA;
+	display: none;  /* fade in with jQuery */
 }
 
 #content {
@@ -24,6 +25,7 @@ ul { list-style: circle; margin: 0; }
 	line-height: 1.5;
 	background-color: white;
 	border-top: 3px solid #BF0D0D;
+	display: none;  /* fade in with jQuery */
 }
 
 #disclaimer {
@@ -31,6 +33,7 @@ ul { list-style: circle; margin: 0; }
 	font-size: 0.7em;
 	text-align: right;
 	padding: 10px 16px;
+	display: none;  /* fade in with jQuery */
 }
 
 #disclaimer a { color: #BBB; text-decoration: underline; }
@@ -40,9 +43,13 @@ ul { list-style: circle; margin: 0; }
 	margin: 20px 0;
 }
 
-.red {
+.red, .pilcrow {
 	color: #BF0D0D;
 	margin-right: 8px;
+}
+
+.pilcrow {
+	visibility: hidden;
 }
 
 .project {
