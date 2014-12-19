@@ -9,57 +9,56 @@ ul { list-style: circle; margin: 0; }
 ::-moz-selection { background: #CCCCCC; }
 
 #main {
-	width: 50%;
-	margin: 40px auto;
-	font: 1.0em "Roboto", times, serif;
+    width: 50%;
+    margin: 40px auto;
+    font: 1.0em "Roboto", times, serif;
 }
 
 #logo {
-	font: 2em georgia, serif;
-	margin: 8px 18px;
-	color: #AAA;
-	//display: none;  /* fade in with jQuery */
+    font: 2em georgia, serif;
+    margin: 8px 18px;
+    color: #AAA;
+    //display: none;  /* fade in with jQuery */
 }
 
 #content {
-	padding: 8px 28px;
-	font-size: 1em;
-	line-height: 1.5;
-	background-color: white;
-	border-top: 3px solid #BF0D0D;
-	//display: none;  /* fade in with jQuery */
+    padding: 8px 28px;
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: white;
+    border-top: 3px solid #BF0D0D;
+    //display: none;  /* fade in with jQuery */
 }
 
 #disclaimer {
-	color: #BBB;
-	font-size: 0.7em;
-	text-align: right;
-	padding: 10px 16px;
-	//display: none;  /* fade in with jQuery */
+    color: #BBB;
+    font-size: 0.7em;
+    text-align: right;
+    padding: 10px 16px;
+    //display: none;  /* fade in with jQuery */
 }
 
 #disclaimer a { color: #BBB; text-decoration: underline; }
 #disclaimer a:hover { text-decoration: none; }
 
 .section {
-	margin: 22px 0;
+    margin: 22px 0;
 }
 
 .red {
-	color: #BF0D0D;
-	margin-right: 8px;
+    color: #BF0D0D;
+    margin-right: 8px;
 }
 
 .project {
-	background-color: #F0F0F0;
-	border-top: 1px solid #BF0D0D;
-	padding: 8px 16px;
+    background-color: #F0F0F0;
+    border-top: 1px solid #BF0D0D;
+    padding: 8px 16px;
 }
 .project:hover {
-	background-color: #FAFAFA;
+    background-color: #FAFAFA;
 }
 
 .project a:first-child {
-	font-weight: bold;
+    font-weight: bold;
 }
-
