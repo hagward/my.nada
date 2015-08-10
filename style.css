@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 html, body { margin: 0; padding: 0; }
 body {
     background: url('./img/bg_stripe.png');
@@ -11,7 +14,7 @@ body {
 }
 
 h1 { font: 1.6em "Fjalla One"; margin: 2px 0; }
-a { color: #BF0D0D; text-decoration: none; }
+a { color: #D46A6A; text-decoration: none; }
 a:hover { text-decoration: underline; }
 p { margin: 8px 0; }
 ul { list-style: circle; margin: 0; }
@@ -20,54 +23,51 @@ ul { list-style: circle; margin: 0; }
 
 #main {
     width: 50%;
-    margin: 5% auto;
+    margin: 1% auto;
     font: 1.0em "Roboto", times, serif;
     box-shadow: 0 0 10px lightgray;
     font-size: 1em;
     line-height: 1.5;
     background-color: white;
+    color: #222;
+}
+
+#logo, #disclaimer {
+    background-color: #D46A6A;
+    color: white;
+    padding: 8px 18px;
 }
 
 #logo {
-    font: 2em georgia, serif;
-    padding: 8px 18px;
-    color: white;
-    background-color: #D46A6A;
+    font-size: 1.5em;
     box-shadow: 0 2px 2px 0px lightgray;
     margin-bottom: 20px;
 }
 
 #disclaimer {
-    background-color: #D46A6A;
-    color: #BBB;
     font-size: 0.7em;
     text-align: right;
-    padding: 10px 16px;
     box-shadow: 0 -2px 2px 0px lightgray;
     margin-top: 20px;
 }
 
-#disclaimer a { color: #BBB; text-decoration: underline; }
+#disclaimer a { text-decoration: underline; }
 #disclaimer a:hover { text-decoration: none; }
 
 section {
     padding: 10px 12px;
 }
 
-.red {
+.sectionSign {
     color: #669999;
     margin-right: 8px;
 }
 
 .project {
-    background-color: #F0F0F0;
-    border-top: 1px solid #BF0D0D;
+    /*background-color: #F0F0F0;*/
+    /*border-top: 1px solid #BF0D0D;*/
     padding: 8px 16px;
 }
 .project:hover {
     background-color: #FAFAFA;
-}
-
-.project a:first-child {
-    font-weight: bold;
 }
