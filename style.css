@@ -13,13 +13,11 @@ body {
     );
 }
 
-h1 { font: 1.6em "Fjalla One"; margin: 2px 0; }
-a { color: #D46A6A; text-decoration: none; }
-a:hover { text-decoration: underline; }
-p { margin: 8px 0; }
+h1 { font: 1.6em "Fjalla One"; margin: 0.1em 0; }
+p { margin: 0.6em 0; }
 ul { list-style: circle; margin: 0; }
-::selection { background: #CCCCCC; }
-::-moz-selection { background: #CCCCCC; }
+::selection { background: #CFE4E4; }
+::-moz-selection { background: #CFE4E4; }
 
 #main {
     width: 50%;
@@ -34,40 +32,46 @@ ul { list-style: circle; margin: 0; }
 
 #logo, #disclaimer {
     background-color: #D46A6A;
+    box-shadow: 0 4px 4px 0px lightgray;
     color: white;
-    padding: 8px 18px;
+    padding: 0.4em 0.8em;
 }
 
 #logo {
     font-size: 1.5em;
-    box-shadow: 0 2px 2px 0px lightgray;
-    margin-bottom: 20px;
+    margin-bottom: 0.8em;
 }
 
 #disclaimer {
     font-size: 0.7em;
     text-align: right;
-    box-shadow: 0 -2px 2px 0px lightgray;
-    margin-top: 20px;
+    margin-top: 0.8em;
 }
 
-#disclaimer a { text-decoration: underline; }
+#disclaimer a { color: white; }
 #disclaimer a:hover { text-decoration: none; }
 
 section {
-    padding: 10px 12px;
+    padding: 0.4em 1em;
+}
+
+section a {
+    color: #D46A6A;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section a:hover {
+    background-color: #CFE4E4;
+    border-radius: 6px;
+    text-decoration: none;
 }
 
 .sectionSign {
     color: #669999;
-    margin-right: 8px;
+    margin-right: 0.4em;
 }
 
 .project {
-    /*background-color: #F0F0F0;*/
-    /*border-top: 1px solid #BF0D0D;*/
-    padding: 8px 16px;
-}
-.project:hover {
-    background-color: #FAFAFA;
+    padding: 0.4em 1.2em;
 }
