@@ -21,7 +21,7 @@ ul { list-style: circle; margin: 0; }
 
 #main {
     width: 50%;
-    margin: 1% auto;
+    margin: 2vh auto;
     font: 1.0em "Roboto", times, serif;
     box-shadow: 0 0 10px lightgray;
     font-size: 1em;
@@ -74,4 +74,17 @@ section a:hover {
 
 .project {
     padding: 0.4em 1.2em;
+}
+
+@media (max-width: 1000px) {
+    #main {
+        width: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    #main {
+        width: 100%;
+        margin-top: 0;
+    }
 }
